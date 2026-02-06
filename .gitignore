@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific - Large Data & Models
+# Keep prompts, ignore generations and heavy data
+data/generations/
+data/annotations/
+data/activations/
+models/*.pkl
+models/*.joblib
+outputs/
+
+# Cloned repositories (if you want to track them as submodules or just ignore)
+factum-base/
+
+# Logs and temporary files
+*.log
+.DS_Store
+tmp/
