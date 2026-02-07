@@ -73,8 +73,7 @@ class ZeroShotScorer:
             model_name,
             torch_dtype=torch.float16,
             device_map="auto",
-            output_hidden_states=True,
-            output_attentions=True,
+            attn_implementation="eager",  # Required for output_attentions=True
         )
         self.model.eval()
         
