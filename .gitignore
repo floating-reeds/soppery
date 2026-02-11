@@ -44,6 +44,9 @@ outputs/
 # Cloned repositories (if you want to track them as submodules or just ignore)
 factum-base/
 
+# Notebooks with secrets
+
+
 # Logs and temporary files
 *.log
 .DS_Store
