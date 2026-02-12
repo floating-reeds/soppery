@@ -1,52 +1,752 @@
 [
-  {"id": "sci_001", "domain": "scientific", "prompt": "Write a 500-word essay explaining the Transformer architecture and its impact on natural language processing. Include at least 3 citations to foundational papers with author names and publication years."},
-  {"id": "sci_002", "domain": "scientific", "prompt": "Discuss the development and applications of CRISPR-Cas9 gene editing technology. Cite at least 3 seminal papers that contributed to this field."},
-  {"id": "sci_003", "domain": "scientific", "prompt": "Explain how deep reinforcement learning achieved superhuman performance in games like Go and Chess. Reference the key papers with proper citations."},
-  {"id": "sci_004", "domain": "scientific", "prompt": "Describe the methodology and significance of the AlphaFold protein structure prediction system. Include citations to the original research papers."},
-  {"id": "sci_005", "domain": "scientific", "prompt": "Write about the discovery and implications of the Higgs boson. Cite the foundational theoretical papers and experimental confirmation studies."},
-  {"id": "sci_006", "domain": "scientific", "prompt": "Explain the concept of attention mechanisms in neural networks and their evolution. Include citations to at least 3 key papers."},
-  {"id": "sci_007", "domain": "scientific", "prompt": "Discuss the development of mRNA vaccine technology and its role in COVID-19 vaccines. Cite foundational research papers."},
-  {"id": "sci_008", "domain": "scientific", "prompt": "Describe the breakthrough in gravitational wave detection by LIGO. Reference the key publications with proper citations."},
-  {"id": "sci_009", "domain": "scientific", "prompt": "Explain the concept of quantum supremacy and recent experimental demonstrations. Cite the relevant research papers."},
-  {"id": "sci_010", "domain": "scientific", "prompt": "Write about the discovery of exoplanets and detection methods. Include citations to pioneering studies in this field."},
-  {"id": "sci_011", "domain": "scientific", "prompt": "Discuss the development of convolutional neural networks for computer vision. Cite foundational papers like LeNet and AlexNet."},
-  {"id": "sci_012", "domain": "scientific", "prompt": "Explain the BERT language model and its impact on NLP benchmarks. Include proper citations to the original paper and key follow-up work."},
-  {"id": "sci_013", "domain": "scientific", "prompt": "Describe the development of GPT models and the scaling laws in language modeling. Cite relevant OpenAI papers."},
-  {"id": "sci_014", "domain": "scientific", "prompt": "Write about the Nobel Prize-winning discovery of carbon nanotubes and graphene. Include citations to the original research."},
-  {"id": "sci_015", "domain": "scientific", "prompt": "Explain the concept of transfer learning in machine learning and its applications. Cite key papers that established this paradigm."},
-  {"id": "sci_016", "domain": "scientific", "prompt": "Discuss the development of recurrent neural networks and LSTMs for sequence modeling. Include citations to foundational work."},
-  {"id": "sci_017", "domain": "scientific", "prompt": "Describe the methodology of the Human Genome Project. Cite the key publications announcing its completion."},
-  {"id": "sci_018", "domain": "scientific", "prompt": "Explain the physics behind black hole imaging and the Event Horizon Telescope results. Include proper citations."},
-  {"id": "sci_019", "domain": "scientific", "prompt": "Write about the development of diffusion models for image generation. Cite the key papers introducing this technique."},
-  {"id": "sci_020", "domain": "scientific", "prompt": "Discuss the breakthrough in nuclear fusion energy at the National Ignition Facility. Reference relevant publications."},
-  {"id": "sci_021", "domain": "scientific", "prompt": "Explain the development of word embeddings (Word2Vec, GloVe) and their importance in NLP. Include citations."},
-  {"id": "sci_022", "domain": "scientific", "prompt": "Describe the discovery of dark energy and the accelerating expansion of the universe. Cite the Nobel Prize-winning research."},
-  {"id": "sci_023", "domain": "scientific", "prompt": "Write about the development of generative adversarial networks (GANs). Include citations to the original paper and key variants."},
-  {"id": "sci_024", "domain": "scientific", "prompt": "Explain the concept of batch normalization in deep learning. Cite the original paper and discuss its impact."},
-  {"id": "sci_025", "domain": "scientific", "prompt": "Discuss the development of dropout as a regularization technique. Include the original citation and related work."},
-  {"id": "sci_026", "domain": "scientific", "prompt": "Describe the ResNet architecture and its solution to the vanishing gradient problem. Cite the original paper."},
-  {"id": "sci_027", "domain": "scientific", "prompt": "Write about the discovery of the double helix structure of DNA by Watson and Crick. Include proper historical citations."},
-  {"id": "sci_028", "domain": "scientific", "prompt": "Explain the concept of reinforcement learning from human feedback (RLHF). Cite key papers in this area."},
-  {"id": "sci_029", "domain": "scientific", "prompt": "Discuss the development of the Adam optimizer and its variants. Include citations to foundational papers."},
-  {"id": "sci_030", "domain": "scientific", "prompt": "Describe the breakthrough in room-temperature superconductivity claims. Cite the relevant published papers."},
-  {"id": "sci_031", "domain": "scientific", "prompt": "Write about the development of neural machine translation. Cite key papers from sequence-to-sequence models to Transformers."},
-  {"id": "sci_032", "domain": "scientific", "prompt": "Explain the concept of self-supervised learning in computer vision. Include citations to contrastive learning papers."},
-  {"id": "sci_033", "domain": "scientific", "prompt": "Discuss the development of object detection algorithms (RCNN, YOLO). Cite the original papers."},
-  {"id": "sci_034", "domain": "scientific", "prompt": "Describe the concept of neural architecture search. Include citations to foundational work in this area."},
-  {"id": "sci_035", "domain": "scientific", "prompt": "Write about the development of vision transformers (ViT). Cite the original paper and key follow-up work."},
-  {"id": "sci_036", "domain": "scientific", "prompt": "Explain the discovery of the TRAPPIST-1 planetary system. Include citations to the relevant astronomical publications."},
-  {"id": "sci_037", "domain": "scientific", "prompt": "Discuss the development of knowledge graph embedding methods. Cite foundational papers like TransE."},
-  {"id": "sci_038", "domain": "scientific", "prompt": "Describe the concept of mixture of experts in large language models. Include citations to key papers."},
-  {"id": "sci_039", "domain": "scientific", "prompt": "Write about the development of speech recognition using deep learning. Cite key papers from this field."},
-  {"id": "sci_040", "domain": "scientific", "prompt": "Explain the concept of prompt engineering and in-context learning. Cite the GPT-3 paper and related work."},
-  {"id": "sci_041", "domain": "scientific", "prompt": "Discuss the development of multimodal models like CLIP and DALL-E. Include citations to the original papers."},
-  {"id": "sci_042", "domain": "scientific", "prompt": "Describe the breakthrough in synthetic biology with the creation of the first synthetic cell. Cite the publication."},
-  {"id": "sci_043", "domain": "scientific", "prompt": "Write about the development of chain-of-thought prompting. Include citations to foundational papers."},
-  {"id": "sci_044", "domain": "scientific", "prompt": "Explain the concept of instruction tuning in large language models. Cite papers like FLAN and InstructGPT."},
-  {"id": "sci_045", "domain": "scientific", "prompt": "Discuss the development of retrieval-augmented generation (RAG). Include citations to key papers."},
-  {"id": "sci_046", "domain": "scientific", "prompt": "Describe the concept of model quantization for efficient inference. Cite foundational papers in this area."},
-  {"id": "sci_047", "domain": "scientific", "prompt": "Write about the development of parameter-efficient fine-tuning methods like LoRA. Include citations."},
-  {"id": "sci_048", "domain": "scientific", "prompt": "Explain the discovery of room-temperature ferromagnetism in twisted bilayer graphene. Cite the relevant papers."},
-  {"id": "sci_049", "domain": "scientific", "prompt": "Discuss the development of constitutional AI and AI safety research. Include citations to Anthropic's papers."},
-  {"id": "sci_050", "domain": "scientific", "prompt": "Describe the concept of mechanistic interpretability in neural networks. Cite foundational papers from this field."}
+  {
+    "id": "sci_001",
+    "domain": "scientific",
+    "prompt": "Write a 500-word essay explaining the Transformer architecture and its impact on natural language processing. Include at least 3 citations to foundational papers with author names and publication years."
+  },
+  {
+    "id": "sci_002",
+    "domain": "scientific",
+    "prompt": "Discuss the development and applications of CRISPR-Cas9 gene editing technology. Cite at least 3 seminal papers that contributed to this field."
+  },
+  {
+    "id": "sci_003",
+    "domain": "scientific",
+    "prompt": "Explain how deep reinforcement learning achieved superhuman performance in games like Go and Chess. Reference the key papers with proper citations."
+  },
+  {
+    "id": "sci_004",
+    "domain": "scientific",
+    "prompt": "Describe the methodology and significance of the AlphaFold protein structure prediction system. Include citations to the original research papers."
+  },
+  {
+    "id": "sci_005",
+    "domain": "scientific",
+    "prompt": "Write about the discovery and implications of the Higgs boson. Cite the foundational theoretical papers and experimental confirmation studies."
+  },
+  {
+    "id": "sci_006",
+    "domain": "scientific",
+    "prompt": "Explain the concept of attention mechanisms in neural networks and their evolution. Include citations to at least 3 key papers."
+  },
+  {
+    "id": "sci_007",
+    "domain": "scientific",
+    "prompt": "Discuss the development of mRNA vaccine technology and its role in COVID-19 vaccines. Cite foundational research papers."
+  },
+  {
+    "id": "sci_008",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in gravitational wave detection by LIGO. Reference the key publications with proper citations."
+  },
+  {
+    "id": "sci_009",
+    "domain": "scientific",
+    "prompt": "Explain the concept of quantum supremacy and recent experimental demonstrations. Cite the relevant research papers."
+  },
+  {
+    "id": "sci_010",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of exoplanets and detection methods. Include citations to pioneering studies in this field."
+  },
+  {
+    "id": "sci_011",
+    "domain": "scientific",
+    "prompt": "Discuss the development of convolutional neural networks for computer vision. Cite foundational papers like LeNet and AlexNet."
+  },
+  {
+    "id": "sci_012",
+    "domain": "scientific",
+    "prompt": "Explain the BERT language model and its impact on NLP benchmarks. Include proper citations to the original paper and key follow-up work."
+  },
+  {
+    "id": "sci_013",
+    "domain": "scientific",
+    "prompt": "Describe the development of GPT models and the scaling laws in language modeling. Cite relevant OpenAI papers."
+  },
+  {
+    "id": "sci_014",
+    "domain": "scientific",
+    "prompt": "Write about the Nobel Prize-winning discovery of carbon nanotubes and graphene. Include citations to the original research."
+  },
+  {
+    "id": "sci_015",
+    "domain": "scientific",
+    "prompt": "Explain the concept of transfer learning in machine learning and its applications. Cite key papers that established this paradigm."
+  },
+  {
+    "id": "sci_016",
+    "domain": "scientific",
+    "prompt": "Discuss the development of recurrent neural networks and LSTMs for sequence modeling. Include citations to foundational work."
+  },
+  {
+    "id": "sci_017",
+    "domain": "scientific",
+    "prompt": "Describe the methodology of the Human Genome Project. Cite the key publications announcing its completion."
+  },
+  {
+    "id": "sci_018",
+    "domain": "scientific",
+    "prompt": "Explain the physics behind black hole imaging and the Event Horizon Telescope results. Include proper citations."
+  },
+  {
+    "id": "sci_019",
+    "domain": "scientific",
+    "prompt": "Write about the development of diffusion models for image generation. Cite the key papers introducing this technique."
+  },
+  {
+    "id": "sci_020",
+    "domain": "scientific",
+    "prompt": "Discuss the breakthrough in nuclear fusion energy at the National Ignition Facility. Reference relevant publications."
+  },
+  {
+    "id": "sci_021",
+    "domain": "scientific",
+    "prompt": "Explain the development of word embeddings (Word2Vec, GloVe) and their importance in NLP. Include citations."
+  },
+  {
+    "id": "sci_022",
+    "domain": "scientific",
+    "prompt": "Describe the discovery of dark energy and the accelerating expansion of the universe. Cite the Nobel Prize-winning research."
+  },
+  {
+    "id": "sci_023",
+    "domain": "scientific",
+    "prompt": "Write about the development of generative adversarial networks (GANs). Include citations to the original paper and key variants."
+  },
+  {
+    "id": "sci_024",
+    "domain": "scientific",
+    "prompt": "Explain the concept of batch normalization in deep learning. Cite the original paper and discuss its impact."
+  },
+  {
+    "id": "sci_025",
+    "domain": "scientific",
+    "prompt": "Discuss the development of dropout as a regularization technique. Include the original citation and related work."
+  },
+  {
+    "id": "sci_026",
+    "domain": "scientific",
+    "prompt": "Describe the ResNet architecture and its solution to the vanishing gradient problem. Cite the original paper."
+  },
+  {
+    "id": "sci_027",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of the double helix structure of DNA by Watson and Crick. Include proper historical citations."
+  },
+  {
+    "id": "sci_028",
+    "domain": "scientific",
+    "prompt": "Explain the concept of reinforcement learning from human feedback (RLHF). Cite key papers in this area."
+  },
+  {
+    "id": "sci_029",
+    "domain": "scientific",
+    "prompt": "Discuss the development of the Adam optimizer and its variants. Include citations to foundational papers."
+  },
+  {
+    "id": "sci_030",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in room-temperature superconductivity claims. Cite the relevant published papers."
+  },
+  {
+    "id": "sci_031",
+    "domain": "scientific",
+    "prompt": "Write about the development of neural machine translation. Cite key papers from sequence-to-sequence models to Transformers."
+  },
+  {
+    "id": "sci_032",
+    "domain": "scientific",
+    "prompt": "Explain the concept of self-supervised learning in computer vision. Include citations to contrastive learning papers."
+  },
+  {
+    "id": "sci_033",
+    "domain": "scientific",
+    "prompt": "Discuss the development of object detection algorithms (RCNN, YOLO). Cite the original papers."
+  },
+  {
+    "id": "sci_034",
+    "domain": "scientific",
+    "prompt": "Describe the concept of neural architecture search. Include citations to foundational work in this area."
+  },
+  {
+    "id": "sci_035",
+    "domain": "scientific",
+    "prompt": "Write about the development of vision transformers (ViT). Cite the original paper and key follow-up work."
+  },
+  {
+    "id": "sci_036",
+    "domain": "scientific",
+    "prompt": "Explain the discovery of the TRAPPIST-1 planetary system. Include citations to the relevant astronomical publications."
+  },
+  {
+    "id": "sci_037",
+    "domain": "scientific",
+    "prompt": "Discuss the development of knowledge graph embedding methods. Cite foundational papers like TransE."
+  },
+  {
+    "id": "sci_038",
+    "domain": "scientific",
+    "prompt": "Describe the concept of mixture of experts in large language models. Include citations to key papers."
+  },
+  {
+    "id": "sci_039",
+    "domain": "scientific",
+    "prompt": "Write about the development of speech recognition using deep learning. Cite key papers from this field."
+  },
+  {
+    "id": "sci_040",
+    "domain": "scientific",
+    "prompt": "Explain the concept of prompt engineering and in-context learning. Cite the GPT-3 paper and related work."
+  },
+  {
+    "id": "sci_041",
+    "domain": "scientific",
+    "prompt": "Discuss the development of multimodal models like CLIP and DALL-E. Include citations to the original papers."
+  },
+  {
+    "id": "sci_042",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in synthetic biology with the creation of the first synthetic cell. Cite the publication."
+  },
+  {
+    "id": "sci_043",
+    "domain": "scientific",
+    "prompt": "Write about the development of chain-of-thought prompting. Include citations to foundational papers."
+  },
+  {
+    "id": "sci_044",
+    "domain": "scientific",
+    "prompt": "Explain the concept of instruction tuning in large language models. Cite papers like FLAN and InstructGPT."
+  },
+  {
+    "id": "sci_045",
+    "domain": "scientific",
+    "prompt": "Discuss the development of retrieval-augmented generation (RAG). Include citations to key papers."
+  },
+  {
+    "id": "sci_046",
+    "domain": "scientific",
+    "prompt": "Describe the concept of model quantization for efficient inference. Cite foundational papers in this area."
+  },
+  {
+    "id": "sci_047",
+    "domain": "scientific",
+    "prompt": "Write about the development of parameter-efficient fine-tuning methods like LoRA. Include citations."
+  },
+  {
+    "id": "sci_048",
+    "domain": "scientific",
+    "prompt": "Explain the discovery of room-temperature ferromagnetism in twisted bilayer graphene. Cite the relevant papers."
+  },
+  {
+    "id": "sci_049",
+    "domain": "scientific",
+    "prompt": "Discuss the development of constitutional AI and AI safety research. Include citations to Anthropic's papers."
+  },
+  {
+    "id": "sci_050",
+    "domain": "scientific",
+    "prompt": "Describe the concept of mechanistic interpretability in neural networks. Cite foundational papers from this field."
+  },
+  {
+    "id": "sci_051",
+    "domain": "scientific",
+    "prompt": "Explain the development of federated learning for privacy-preserving machine learning. Include citations to key papers."
+  },
+  {
+    "id": "sci_052",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of fast radio bursts and their potential origins. Cite relevant astronomical papers."
+  },
+  {
+    "id": "sci_053",
+    "domain": "scientific",
+    "prompt": "Discuss the development of graph neural networks. Include citations to foundational papers like GCN and GraphSAGE."
+  },
+  {
+    "id": "sci_054",
+    "domain": "scientific",
+    "prompt": "Describe the concept of zero-shot learning in computer vision. Cite key papers in this area."
+  },
+  {
+    "id": "sci_055",
+    "domain": "scientific",
+    "prompt": "Explain the development of variational autoencoders (VAEs). Include citations to the original paper."
+  },
+  {
+    "id": "sci_056",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of water on Mars. Cite relevant NASA publications and research papers."
+  },
+  {
+    "id": "sci_057",
+    "domain": "scientific",
+    "prompt": "Discuss the development of optical flow estimation in computer vision. Include citations to foundational work."
+  },
+  {
+    "id": "sci_058",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in quantum error correction. Cite key papers from this field."
+  },
+  {
+    "id": "sci_059",
+    "domain": "scientific",
+    "prompt": "Explain the concept of meta-learning and few-shot learning. Include citations to papers like MAML."
+  },
+  {
+    "id": "sci_060",
+    "domain": "scientific",
+    "prompt": "Write about the development of capsule networks. Cite Hinton's paper and related work."
+  },
+  {
+    "id": "sci_061",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of pulsars and their importance in astrophysics. Include historical citations."
+  },
+  {
+    "id": "sci_062",
+    "domain": "scientific",
+    "prompt": "Describe the development of semantic segmentation in computer vision. Cite papers like FCN and U-Net."
+  },
+  {
+    "id": "sci_063",
+    "domain": "scientific",
+    "prompt": "Explain the concept of normalizing flows in generative modeling. Include citations to key papers."
+  },
+  {
+    "id": "sci_064",
+    "domain": "scientific",
+    "prompt": "Write about the development of adversarial examples and robustness in neural networks. Cite foundational papers."
+  },
+  {
+    "id": "sci_065",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of the cosmic microwave background radiation. Include citations to Penzias and Wilson's work."
+  },
+  {
+    "id": "sci_066",
+    "domain": "scientific",
+    "prompt": "Describe the development of neural ordinary differential equations (Neural ODEs). Cite the original paper."
+  },
+  {
+    "id": "sci_067",
+    "domain": "scientific",
+    "prompt": "Explain the concept of curriculum learning in machine learning. Include citations to foundational work."
+  },
+  {
+    "id": "sci_068",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of stem cells and their applications. Cite key research papers."
+  },
+  {
+    "id": "sci_069",
+    "domain": "scientific",
+    "prompt": "Discuss the development of energy-based models in machine learning. Include citations to relevant papers."
+  },
+  {
+    "id": "sci_070",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in optical lattice atomic clocks. Cite the relevant physics papers."
+  },
+  {
+    "id": "sci_071",
+    "domain": "scientific",
+    "prompt": "Explain the concept of continual learning and catastrophic forgetting. Include citations to key papers."
+  },
+  {
+    "id": "sci_072",
+    "domain": "scientific",
+    "prompt": "Write about the development of single-cell RNA sequencing. Cite foundational papers in genomics."
+  },
+  {
+    "id": "sci_073",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of topological insulators. Include citations to key physics papers."
+  },
+  {
+    "id": "sci_074",
+    "domain": "scientific",
+    "prompt": "Describe the development of neural radiance fields (NeRF) for 3D scene representation. Cite the original paper."
+  },
+  {
+    "id": "sci_075",
+    "domain": "scientific",
+    "prompt": "Explain the concept of contrastive learning in self-supervised learning. Include citations to papers like SimCLR."
+  },
+  {
+    "id": "sci_076",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of the accelerating expansion of the universe. Cite the Nobel Prize papers."
+  },
+  {
+    "id": "sci_077",
+    "domain": "scientific",
+    "prompt": "Discuss the development of style transfer in computer vision. Include citations to foundational papers."
+  },
+  {
+    "id": "sci_078",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in coherent control of quantum systems. Cite relevant quantum physics papers."
+  },
+  {
+    "id": "sci_079",
+    "domain": "scientific",
+    "prompt": "Explain the concept of active learning in machine learning. Include citations to key papers."
+  },
+  {
+    "id": "sci_080",
+    "domain": "scientific",
+    "prompt": "Write about the development of 3D convolutional networks for video understanding. Cite relevant papers."
+  },
+  {
+    "id": "sci_081",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of neutrino oscillations. Include citations to the Nobel Prize-winning research."
+  },
+  {
+    "id": "sci_082",
+    "domain": "scientific",
+    "prompt": "Describe the development of instance segmentation methods like Mask R-CNN. Cite the original paper."
+  },
+  {
+    "id": "sci_083",
+    "domain": "scientific",
+    "prompt": "Explain the concept of knowledge distillation in neural networks. Include citations to foundational work."
+  },
+  {
+    "id": "sci_084",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of penicillin and its impact on medicine. Include historical citations."
+  },
+  {
+    "id": "sci_085",
+    "domain": "scientific",
+    "prompt": "Discuss the development of optical coherence tomography. Cite key papers in medical imaging."
+  },
+  {
+    "id": "sci_086",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in direct detection of gravitational waves. Include LIGO collaboration citations."
+  },
+  {
+    "id": "sci_087",
+    "domain": "scientific",
+    "prompt": "Explain the concept of multi-task learning in neural networks. Include citations to relevant papers."
+  },
+  {
+    "id": "sci_088",
+    "domain": "scientific",
+    "prompt": "Write about the development of photonic quantum computers. Cite recent research papers."
+  },
+  {
+    "id": "sci_089",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of the structure of antibodies. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_090",
+    "domain": "scientific",
+    "prompt": "Describe the development of point cloud processing with deep learning. Cite papers like PointNet."
+  },
+  {
+    "id": "sci_091",
+    "domain": "scientific",
+    "prompt": "Explain the concept of adversarial training for robustness. Include citations to key papers."
+  },
+  {
+    "id": "sci_092",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of the structure of chromatin. Cite structural biology papers."
+  },
+  {
+    "id": "sci_093",
+    "domain": "scientific",
+    "prompt": "Discuss the development of implicit neural representations. Include citations to papers like SIREN."
+  },
+  {
+    "id": "sci_094",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in single-photon sources for quantum information. Cite relevant physics papers."
+  },
+  {
+    "id": "sci_095",
+    "domain": "scientific",
+    "prompt": "Explain the concept of synthetic gradients in neural networks. Include citations to DeepMind's work."
+  },
+  {
+    "id": "sci_096",
+    "domain": "scientific",
+    "prompt": "Write about the development of organ-on-chip technology. Cite foundational bioengineering papers."
+  },
+  {
+    "id": "sci_097",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of the structure of ribosomes. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_098",
+    "domain": "scientific",
+    "prompt": "Describe the development of differentiable rendering. Cite key computer graphics papers."
+  },
+  {
+    "id": "sci_099",
+    "domain": "scientific",
+    "prompt": "Explain the concept of spiking neural networks. Include citations to neuromorphic computing papers."
+  },
+  {
+    "id": "sci_100",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of antibiotics resistance mechanisms. Cite microbiology research papers."
+  },
+  {
+    "id": "sci_101",
+    "domain": "scientific",
+    "prompt": "Discuss the development of neural text-to-speech synthesis. Include citations to papers like WaveNet and Tacotron."
+  },
+  {
+    "id": "sci_102",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in coherent quantum annealing. Cite quantum computing papers."
+  },
+  {
+    "id": "sci_103",
+    "domain": "scientific",
+    "prompt": "Explain the concept of causal inference in machine learning. Include citations to foundational work."
+  },
+  {
+    "id": "sci_104",
+    "domain": "scientific",
+    "prompt": "Write about the development of adaptive optics in astronomy. Cite key papers in observational astronomy."
+  },
+  {
+    "id": "sci_105",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of telomerase and its role in aging. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_106",
+    "domain": "scientific",
+    "prompt": "Describe the development of neural approaches to program synthesis. Cite relevant papers."
+  },
+  {
+    "id": "sci_107",
+    "domain": "scientific",
+    "prompt": "Explain the concept of tensor decomposition in machine learning. Include citations to key papers."
+  },
+  {
+    "id": "sci_108",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of buckminsterfullerene (C60). Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_109",
+    "domain": "scientific",
+    "prompt": "Discuss the development of hyperspectral imaging. Cite papers in remote sensing."
+  },
+  {
+    "id": "sci_110",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in optical frequency combs. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_111",
+    "domain": "scientific",
+    "prompt": "Explain the concept of attention-based seq2seq models. Include citations to foundational papers."
+  },
+  {
+    "id": "sci_112",
+    "domain": "scientific",
+    "prompt": "Write about the development of lab-grown meat technology. Cite bioengineering research papers."
+  },
+  {
+    "id": "sci_113",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of the structure of ion channels. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_114",
+    "domain": "scientific",
+    "prompt": "Describe the development of learned image compression. Cite relevant papers."
+  },
+  {
+    "id": "sci_115",
+    "domain": "scientific",
+    "prompt": "Explain the concept of equivariant neural networks. Include citations to geometric deep learning papers."
+  },
+  {
+    "id": "sci_116",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of the Kuiper Belt. Cite astronomical research papers."
+  },
+  {
+    "id": "sci_117",
+    "domain": "scientific",
+    "prompt": "Discuss the development of molecular dynamics simulations. Include citations to computational chemistry papers."
+  },
+  {
+    "id": "sci_118",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in optogenetics. Cite foundational neuroscience papers."
+  },
+  {
+    "id": "sci_119",
+    "domain": "scientific",
+    "prompt": "Explain the concept of adversarial domain adaptation. Include citations to key papers."
+  },
+  {
+    "id": "sci_120",
+    "domain": "scientific",
+    "prompt": "Write about the development of nanopore sequencing. Cite genomics research papers."
+  },
+  {
+    "id": "sci_121",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of superfluidity in helium-3. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_122",
+    "domain": "scientific",
+    "prompt": "Describe the development of monocular depth estimation. Cite computer vision papers."
+  },
+  {
+    "id": "sci_123",
+    "domain": "scientific",
+    "prompt": "Explain the concept of Bayesian neural networks. Include citations to foundational work."
+  },
+  {
+    "id": "sci_124",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of the molecular structure of viruses. Include historical citations."
+  },
+  {
+    "id": "sci_125",
+    "domain": "scientific",
+    "prompt": "Discuss the development of protein language models. Cite recent computational biology papers."
+  },
+  {
+    "id": "sci_126",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in quantum teleportation experiments. Cite quantum physics papers."
+  },
+  {
+    "id": "sci_127",
+    "domain": "scientific",
+    "prompt": "Explain the concept of neural tangent kernels. Include citations to theoretical machine learning papers."
+  },
+  {
+    "id": "sci_128",
+    "domain": "scientific",
+    "prompt": "Write about the development of DNA origami. Cite nanotechnology research papers."
+  },
+  {
+    "id": "sci_129",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of quasi-crystals. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_130",
+    "domain": "scientific",
+    "prompt": "Describe the development of learned optimizers. Cite meta-learning papers."
+  },
+  {
+    "id": "sci_131",
+    "domain": "scientific",
+    "prompt": "Explain the concept of disentangled representations. Include citations to representation learning papers."
+  },
+  {
+    "id": "sci_132",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of the Oort Cloud. Cite astronomical research papers."
+  },
+  {
+    "id": "sci_133",
+    "domain": "scientific",
+    "prompt": "Discuss the development of cryo-electron microscopy. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_134",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in silicon photonics. Cite relevant engineering papers."
+  },
+  {
+    "id": "sci_135",
+    "domain": "scientific",
+    "prompt": "Explain the concept of neural architecture search with reinforcement learning. Include citations to AutoML papers."
+  },
+  {
+    "id": "sci_136",
+    "domain": "scientific",
+    "prompt": "Write about the development of base editing in CRISPR. Cite recent gene editing papers."
+  },
+  {
+    "id": "sci_137",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of Majorana fermions in condensed matter. Cite quantum physics papers."
+  },
+  {
+    "id": "sci_138",
+    "domain": "scientific",
+    "prompt": "Describe the development of learned image super-resolution. Cite computer vision papers."
+  },
+  {
+    "id": "sci_139",
+    "domain": "scientific",
+    "prompt": "Explain the concept of compressed sensing. Include citations to signal processing papers."
+  },
+  {
+    "id": "sci_140",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of atmospheric rivers on Earth. Cite climate science papers."
+  },
+  {
+    "id": "sci_141",
+    "domain": "scientific",
+    "prompt": "Discuss the development of neural rendering for view synthesis. Cite graphics and vision papers."
+  },
+  {
+    "id": "sci_142",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in trapped ion quantum computers. Cite quantum computing papers."
+  },
+  {
+    "id": "sci_143",
+    "domain": "scientific",
+    "prompt": "Explain the concept of lottery ticket hypothesis. Include citations to neural network pruning papers."
+  },
+  {
+    "id": "sci_144",
+    "domain": "scientific",
+    "prompt": "Write about the development of antibody-drug conjugates. Cite pharmaceutical research papers."
+  },
+  {
+    "id": "sci_145",
+    "domain": "scientific",
+    "prompt": "Discuss the discovery of the accelerating expansion via Type Ia supernovae. Include Nobel Prize citations."
+  },
+  {
+    "id": "sci_146",
+    "domain": "scientific",
+    "prompt": "Describe the development of spatiotemporal transformers for video. Cite recent vision papers."
+  },
+  {
+    "id": "sci_147",
+    "domain": "scientific",
+    "prompt": "Explain the concept of double descent in machine learning. Include citations to key papers."
+  },
+  {
+    "id": "sci_148",
+    "domain": "scientific",
+    "prompt": "Write about the discovery of Homo naledi. Cite paleoanthropology research papers."
+  },
+  {
+    "id": "sci_149",
+    "domain": "scientific",
+    "prompt": "Discuss the development of memristors for neuromorphic computing. Cite materials science papers."
+  },
+  {
+    "id": "sci_150",
+    "domain": "scientific",
+    "prompt": "Describe the breakthrough in measurement-based quantum computing. Cite quantum information theory papers."
+  }
 ]
